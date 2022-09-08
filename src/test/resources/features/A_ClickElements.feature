@@ -1,6 +1,5 @@
-Feature: Click Elements
+Feature: Click Button
 
-Scenario: Click elements
-  Given Application launches and user clicks seven button
-  When user clicks three and equal button
-  Then user should get sum as ten
+  Scenario: Click a number Button
+    Given user clicks three
+    Then verify the number
